@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.head{
+    padding-top: 15px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+.social{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+}
+
+.call-us {
+    background-color: black;
+    color: gold;
+    border: 2px solid gold;
+    margin: 20px 30px;
+    padding: 15px;
+    font-size: medium
+}
+
+.call-us:hover{
+    background-color: gold;
+    color: white;
+    
+}
+
+.navbar{
+ 
+}
+
+.navbarr{
+    display: flex;
+    flex-direction: row;
+
+    list-style: none;
+
+}
+
+.bg-img {
+    background-image: url(images/h1_hero1.jpg.webp);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
