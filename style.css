@@ -4,20 +4,54 @@ body {
     margin: 0;
     padding: 0;
 }
-.head{
-    padding-top: 15px;
+
+.head {
+    padding: 15px;
 }
 
-.header{
+.header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between; 
+    justify-content: space-between;
 }
 
-.social{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 30px;
+.social {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.Facebook{
+    margin: 15px;
+    transform: scaleX(1);
+}
+
+.Facebook:hover{
+    transform: scaleX(-1);
+    transition: transform 0.5s;
+    color: gold;
+    cursor: pointer;
+}
+
+.Instagram{
+    margin: 15px;
+}
+
+.Instagram:hover{
+    transform: scaleX(-1);
+    transition: transform 0.5s;
+    color: gold;
+    cursor: pointer;
+}
+
+.Twitter{
+    margin: 15px;
+}
+
+.Twitter:hover{
+    transform: scaleX(-1);
+    transition: transform 0.5s;
+    color: gold;
+    cursor: pointer;
 }
 
 .call-us {
@@ -29,22 +63,50 @@ body {
     font-size: medium
 }
 
-.call-us:hover{
+.call-us:hover {
     background-color: gold;
     color: white;
-    
+
 }
 
-.navbar{
- 
-}
+.navbar {}
 
-.navbarr{
+.navbarr {
     display: flex;
     flex-direction: row;
-
+    justify-content: center;
     list-style: none;
 
+}
+
+.home{
+    margin-right: 30px ;
+    text-decoration: none;
+    color: white;
+}
+
+.cakes{
+    margin: 0px 30px ;
+    text-decoration: none;
+    color: white;
+}
+
+.about{
+    margin:0px 30px ;
+    text-decoration: none;
+    color: white;
+}
+
+.blog{
+    margin: 0px 30px ;
+    text-decoration: none;
+    color: white;
+}
+
+.contact{
+    margin: 0px 30px ;
+    text-decoration: none;
+    color: white;
 }
 
 .bg-img {
