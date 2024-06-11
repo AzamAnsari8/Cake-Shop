@@ -22,7 +22,6 @@ body {
 
 .Facebook{
     margin: 15px;
-    transform: scaleX(1);
 }
 
 .Facebook:hover{
@@ -34,9 +33,11 @@ body {
 
 .Instagram{
     margin: 15px;
+    text-decoration: none;
+    color: white;
 }
 
-.Instagram:hover{
+.Instagram1:hover{
     transform: scaleX(-1);
     transition: transform 0.5s;
     color: gold;
@@ -54,10 +55,14 @@ body {
     cursor: pointer;
 }
 
+.logo{
+    padding-left: 9%;
+}
+
 .call-us {
     background-color: black;
     color: gold;
-    border: 2px solid gold;
+    border: 2px solid gold; 
     margin: 20px 30px;
     padding: 15px;
     font-size: medium
@@ -69,7 +74,16 @@ body {
 
 }
 
-.navbar {}
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    padding: 10px;
+}
+
+.navbar a:hover{
+color: gold;
+}
 
 .navbarr {
     display: flex;
@@ -111,8 +125,39 @@ body {
 
 .bg-img {
     background-image: url(images/h1_hero1.jpg.webp);
-    height: 500px;
+    height: 800px;
+    width: auto;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.ml{
+    margin-left: 150px;
+    padding-top: 200PX;
+}
+
+.healthy{
+    font-size: 400%;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.order-btn{
+    font-size: medium;
+    margin-top: 0px;
+    padding: 15px 25px;
+    background-color: gold;
+    border: 1px solid gold;
+}
+
+.order-btn:hover{
+    background-color: transparent;
+    color: gold;
+    border: 2px solid gold;
+}
+
+.schilers{
+    text-align: center;
+    font-size: larger;
+    font-family:'Courier New', Courier, monospace;
 }
