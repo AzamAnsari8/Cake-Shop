@@ -3,6 +3,7 @@ body {
     color: white;
     margin: 0;
     padding: 0;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .head {
@@ -20,56 +21,56 @@ body {
     padding-left: 20px;
 }
 
-.Facebook{
+.Facebook {
     margin: 15px;
 }
 
-.Facebook:hover{
+.Facebook:hover {
     transform: scaleX(-1);
     transition: transform 0.5s;
-    color: gold;
+    color: #E5BF4A;
     cursor: pointer;
 }
 
-.Instagram{
+.Instagram {
     margin: 15px;
     text-decoration: none;
     color: white;
 }
 
-.Instagram1:hover{
+.Instagram1:hover {
     transform: scaleX(-1);
     transition: transform 0.5s;
-    color: gold;
+    color: #E5BF4A;
     cursor: pointer;
 }
 
-.Twitter{
+.Twitter {
     margin: 15px;
 }
 
-.Twitter:hover{
+.Twitter:hover {
     transform: scaleX(-1);
     transition: transform 0.5s;
-    color: gold;
+    color: #E5BF4A;
     cursor: pointer;
 }
 
-.logo{
+.logo {
     padding-left: 9%;
 }
 
 .call-us {
     background-color: black;
-    color: gold;
-    border: 2px solid gold; 
+    color: #E5BF4A;
+    border: 2px solid #E5BF4A;
     margin: 20px 30px;
     padding: 15px;
     font-size: medium
 }
 
 .call-us:hover {
-    background-color: gold;
+    background-color: #E5BF4A;
     color: white;
 
 }
@@ -81,44 +82,44 @@ body {
     padding: 10px;
 }
 
-.navbar a:hover{
-color: gold;
-}
-
 .navbarr {
     display: flex;
     flex-direction: row;
     justify-content: center;
     list-style: none;
-
+    background-color: black;
 }
 
-.home{
-    margin-right: 30px ;
+.navbarr a:hover {
+    color: #E5BF4A;
+}
+
+.home {
+    margin-right: 30px;
     text-decoration: none;
     color: white;
 }
 
-.cakes{
-    margin: 0px 30px ;
+.cakes {
+    margin: 0px 30px;
     text-decoration: none;
     color: white;
 }
 
-.about{
-    margin:0px 30px ;
+.about {
+    margin: 0px 30px;
     text-decoration: none;
     color: white;
 }
 
-.blog{
-    margin: 0px 30px ;
+.blog {
+    margin: 0px 30px;
     text-decoration: none;
     color: white;
 }
 
-.contact{
-    margin: 0px 30px ;
+.contact {
+    margin: 0px 30px;
     text-decoration: none;
     color: white;
 }
@@ -132,32 +133,125 @@ color: gold;
     background-size: cover;
 }
 
-.ml{
+.ml {
     margin-left: 150px;
     padding-top: 200PX;
 }
 
-.healthy{
+.healthy {
     font-size: 400%;
-    font-family:'Courier New', Courier, monospace;
 }
 
-.order-btn{
+.order-btn {
     font-size: medium;
     margin-top: 0px;
     padding: 15px 25px;
-    background-color: gold;
-    border: 1px solid gold;
+    background-color: #E5BF4A;
+    border: 1px solid #E5BF4A;
 }
 
-.order-btn:hover{
+.order-btn:hover {
     background-color: transparent;
-    color: gold;
-    border: 2px solid gold;
+    color: #E5BF4A;
+    border: 2px solid #E5BF4A;
 }
 
-.schilers{
+.schilers {
     text-align: center;
-    font-size: larger;
-    font-family:'Courier New', Courier, monospace;
+    font-size: 35px;
+    border-bottom: 50% solid #E5BF4A;
+}
+
+.grid-section{
+    margin: 10px 15%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+}
+
+.youtube-img{
+    background-image: url(images/video-bg.jpg.webp);
+    height: 700px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 10%;
+}
+
+.youtube-btn{
+    position: relative;
+    top: 50%;
+    left: 50%; 
+    border-radius: 50%;
+    border: solid #E5BF4A;
+    padding: 20px;
+    background-color: #E5BF4A;
+    cursor: pointer;
+}
+
+.youtube-btn:hover{
+    background-color: #FFF;
+    border: 5px solid #FFF;
+    left: 49.8%;
+}
+
+.blog-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 10%;
+}
+
+
+.tomato{
+    border: 1px solid #fff;
+}
+
+.h3{
+    color: #E5BF4A;
+}
+
+.insta-sec{
+    margin: 10px 10%;
+    text-align: center;
+}
+
+.footer-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5%;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    margin: 3% 10%;
+    padding: 5% 0;
+}
+
+.f-instagram{
+    background-color: transparent;
+    color: #fff;
+    border:1px solid #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.f-facebook{
+    background-color: transparent;
+    color: #fff;
+    border:1px solid #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.f-twitter{
+    background-color: transparent;
+    color: #fff;
+    border:1px solid #fff;
+    cursor: pointer;
+    padding: 10px 20px;
 }
